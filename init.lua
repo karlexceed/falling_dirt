@@ -1,6 +1,7 @@
 minetest.registered_nodes['default:dirt'].groups.falling_node = 1
 minetest.registered_nodes['default:dirt_with_grass'].groups.falling_node = 1
 minetest.registered_nodes['default:dirt_with_dry_grass'].groups.falling_node = 1
+minetest.registered_nodes['default:dirt_with_grass_footsteps'].groups.falling_node = 1
 minetest.registered_nodes['default:dirt_with_snow'].groups.falling_node = 1
 minetest.registered_nodes['default:dirt_with_rainforest_litter'].groups.falling_node = 1
 minetest.registered_nodes['default:dirt_with_coniferous_litter'].groups.falling_node = 1
@@ -25,3 +26,4 @@ if minetest.get_modpath("ethereal") then
 	minetest.registered_nodes['ethereal:prairie_dirt'].groups.falling_node = 1
 end
 
+default:dirt_with_grass_footsteps
