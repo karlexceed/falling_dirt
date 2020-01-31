@@ -25,5 +25,3 @@ if minetest.get_modpath("ethereal") then
 	minetest.registered_nodes['ethereal:mushroom_dirt'].groups.falling_node = 1
 	minetest.registered_nodes['ethereal:prairie_dirt'].groups.falling_node = 1
 end
-
-default:dirt_with_grass_footsteps
